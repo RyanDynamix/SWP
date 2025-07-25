@@ -4,7 +4,7 @@ import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import dal.UserDAO;
 import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
+
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -19,7 +19,6 @@ import org.apache.http.client.fluent.Request;
  *
  * @author HoangNam
  */
-@WebServlet(name = "LoginGoogleController", urlPatterns = {"/loginGoogle"})
 public class LoginGoogleController extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
