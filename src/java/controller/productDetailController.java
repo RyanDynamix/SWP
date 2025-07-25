@@ -4,7 +4,7 @@ import dal.FeedbackDAO;
 import dal.OrderDAO;
 import dal.ProductDAO;
 import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
+
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -17,7 +17,6 @@ import model.Users;
 import model.detailProduct;
 import util.Validate;
 
-@WebServlet(name = "productDetailController", urlPatterns = {"/productDetail"})
 public class productDetailController extends HttpServlet {
 
     @Override
