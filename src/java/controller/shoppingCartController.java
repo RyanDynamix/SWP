@@ -7,7 +7,7 @@ import feature.sendEmail.Email;
 import java.io.IOException;
 import java.util.*;
 import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
+
 import jakarta.servlet.http.*;
 import model.Discounts;
 import model.Users;
@@ -19,7 +19,6 @@ import vn.payos.type.ItemData;
 import vn.payos.type.PaymentData;
 
 
-@WebServlet(name = "shoppingCartController", urlPatterns = {"/shopping"})
 public class shoppingCartController extends HttpServlet {
 
     @Override
