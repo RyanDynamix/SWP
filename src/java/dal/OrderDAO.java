@@ -843,7 +843,7 @@ public class OrderDAO extends DBContext {
     }
 
     public void confirmOrder(int orderID, String paymentMethod, String status) {
-        String sql = "UPDATE Orders SET paymentMethod = ?, paymentStatus = ? WHERE orderID = ?";
+        String sql = "UPDATE Orders SET paymentType = ?, paymentStatus = ? WHERE orderID = ?";
         try {
             // connection phải được khởi tạo!
             connection = getConnection(); // Nếu bạn dùng JDBC thuần
@@ -902,7 +902,7 @@ public class OrderDAO extends DBContext {
 
     // Thêm method này vào class OrderDAO của bạn
     public int createNewOrder(int userID) {
-        String sql = "INSERT INTO orders (userID, orderDate, orderConfirmed, paymentStatus, deliveryStatus) VALUES (?, ?, ?, ?, ?)";
+        String sql = "INSERT INTO orders (userID, orderDate, orderConfirmed, paymentStatus, deliveryStatus, totalMoney, phone, deliveryLocation) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
         try {
             PreparedStatement ps = connection.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS);
             ps.setInt(1, userID);
@@ -910,6 +910,9 @@ public class OrderDAO extends DBContext {
             ps.setBoolean(3, false);
             ps.setString(4, "Pending");
             ps.setString(5, "Pending");
+            ps.setDouble(6, 0.0); // Set totalMoney = 0 as default
+            ps.setString(7, ""); // phone - required field
+            ps.setString(8, ""); // deliveryLocation - required field
 
             int affectedRows = ps.executeUpdate();
             if (affectedRows > 0) {
