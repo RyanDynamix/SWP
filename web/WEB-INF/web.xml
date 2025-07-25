@@ -21,6 +21,16 @@
         <url-pattern>/FeedbackController</url-pattern>
     </servlet-mapping>
 
+    <!-- homePageController (using annotation-based mapping) -->
+    <servlet>
+        <servlet-name>homePageController</servlet-name>
+        <servlet-class>controller.homePageController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>homePageController</servlet-name>
+        <url-pattern>/homePage</url-pattern>
+    </servlet-mapping>
+    
     <!-- Admin Controllers -->
     <servlet>
         <servlet-name>orderController</servlet-name>
@@ -157,6 +167,53 @@
     <servlet-mapping>
         <servlet-name>VnpayReturn</servlet-name>
         <url-pattern>/vnpayReturn</url-pattern>
+    </servlet-mapping>
+
+    <!-- PayOS Return -->
+    <servlet>
+        <servlet-name>ReturnPayOS</servlet-name>
+        <servlet-class>controller.payment.ReturnPayOS</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ReturnPayOS</servlet-name>
+        <url-pattern>/returnPayOS</url-pattern>
+    </servlet-mapping>
+    
+    <!-- Additional Controllers -->
+    <servlet>
+        <servlet-name>shoppingCartController</servlet-name>
+        <servlet-class>controller.shoppingCartController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>shoppingCartController</servlet-name>
+        <url-pattern>/shopping</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>productDetailController</servlet-name>
+        <servlet-class>controller.productDetailController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>productDetailController</servlet-name>
+        <url-pattern>/productDetail</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>deliveryListController</servlet-name>
+        <servlet-class>controller.deliveryListController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deliveryListController</servlet-name>
+        <url-pattern>/deliveryList</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>LoginGoogleController</servlet-name>
+        <servlet-class>feature.loginGoogle.LoginGoogleController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginGoogleController</servlet-name>
+        <url-pattern>/loginGoogle</url-pattern>
     </servlet-mapping>
 
     <!-- Welcome Page -->
