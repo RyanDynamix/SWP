@@ -38,7 +38,7 @@
                     <div class="social-container">
                         <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
                         <%-- Sửa lại tên HexTech77 ở đây (Đăng kí)   (Đẫ thêm uri HexTech bên gg)   --%>     
-                        <a href="https://accounts.google.com/o/oauth2/auth?scope=email%20profile%20openid&redirect_uri=http://localhost:8080/HexTech77/loginGoogle&response_type=code&client_id=217200688737-k99p0tk3hkv77vui4cf1jkkqdheorca2.apps.googleusercontent.com&approval_prompt=force" 
+                        <a href="https://accounts.google.com/o/oauth2/auth?scope=email%20profile%20openid&redirect_uri=http://localhost:8080/HexTacos/loginGoogle&response_type=code&client_id=217200688737-k99p0tk3hkv77vui4cf1jkkqdheorca2.apps.googleusercontent.com&approval_prompt=force" 
                            class="social"><i class="fab fa-google-plus-g"></i></a>
                         <%-- End sửa lại tên HexTech77 ở đây --%>
                         <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
@@ -57,7 +57,7 @@
                     <div class="social-container">
                         <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
                         <%-- Sửa lại tên HexTech77 ở đây (Đăng nhập) --%>
-                        <a href="https://accounts.google.com/o/oauth2/auth?scope=email%20profile%20openid&redirect_uri=http://localhost:8080/HexTech77/loginGoogle&response_type=code&client_id=217200688737-k99p0tk3hkv77vui4cf1jkkqdheorca2.apps.googleusercontent.com&approval_prompt=force" 
+                        <a href="https://accounts.google.com/o/oauth2/auth?scope=email%20profile%20openid&redirect_uri=http://localhost:8080/HexTacos/loginGoogle&response_type=code&client_id=217200688737-k99p0tk3hkv77vui4cf1jkkqdheorca2.apps.googleusercontent.com&approval_prompt=force" 
                            class="social"><i class="fab fa-google-plus-g"></i></a>
                         <%-- End sửa lại tên HexTech77 ở đây --%>
                         <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
@@ -93,7 +93,7 @@
                     <div class="social-container">
                         <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
                         <%-- Sửa lại tên HexTech77 ở đây (Đăng kí) --%>
-                        <a href="https://accounts.google.com/o/oauth2/auth?scope=email%20profile%20openid&redirect_uri=http://localhost:8080/HexTech77/loginGoogle&response_type=code&client_id=217200688737-k99p0tk3hkv77vui4cf1jkkqdheorca2.apps.googleusercontent.com&approval_prompt=force" 
+                        <a href="https://accounts.google.com/o/oauth2/auth?scope=email%20profile%20openid&redirect_uri=http://localhost:8080/HexTacos/loginGoogle&response_type=code&client_id=217200688737-k99p0tk3hkv77vui4cf1jkkqdheorca2.apps.googleusercontent.com&approval_prompt=force" 
                            class="social"><i class="fab fa-google-plus-g"></i></a>
                         <%-- End sửa lại tên HexTech77 ở đây --%>
                         <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
@@ -114,7 +114,7 @@
                     <div class="social-container">
                         <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
                         <%-- Sửa lại tên HexTech77 ở đây (Đăng nhập) --%>
-                        <a href="https://accounts.google.com/o/oauth2/auth?scope=email%20profile%20openid&redirect_uri=http://localhost:8080/HexTech77/loginGoogle&response_type=code&client_id=217200688737-k99p0tk3hkv77vui4cf1jkkqdheorca2.apps.googleusercontent.com&approval_prompt=force" 
+                        <a href="https://accounts.google.com/o/oauth2/auth?scope=email%20profile%20openid&redirect_uri=http://localhost:8080/HexTacos/loginGoogle&response_type=code&client_id=217200688737-k99p0tk3hkv77vui4cf1jkkqdheorca2.apps.googleusercontent.com&approval_prompt=force" 
                            class="social"><i class="fab fa-google-plus-g"></i></a>
                         <%-- End sửa lại tên HexTech77 ở đây --%>
                         <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
