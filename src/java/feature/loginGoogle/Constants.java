@@ -11,7 +11,7 @@ public class Constants {
 
 	public static String GOOGLE_CLIENT_SECRET = "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";
 
-	public static String GOOGLE_REDIRECT_URI = "http://localhost:8080/HexTech77/loginGoogle";       //sửa lại HexTech ở đây nữa
+	    public static String GOOGLE_REDIRECT_URI = "http://localhost:8080/HexTacos/loginGoogle";       //sửa lại HexTech ở đây nữa
 
 	public static String GOOGLE_LINK_GET_TOKEN = "https://accounts.google.com/o/oauth2/token";
 
